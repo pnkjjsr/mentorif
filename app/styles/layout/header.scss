@@ -1,0 +1,13 @@
+.header[role="main"] {
+  padding: 40px 0;
+  border-bottom: 1px solid #dddddd;
+
+  .logo {
+  }
+
+  .nav {
+    a.nav-link {
+      color: $base-color;
+    }
+  }
+}
