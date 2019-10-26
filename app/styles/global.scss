@@ -52,3 +52,9 @@ body {
   @extend %form-control;
   border: 1px solid #a8a5b3;
 }
+
+@include media-breakpoint-up(ss) {
+  .container {
+    max-width: 1440px;
+  }
+}
