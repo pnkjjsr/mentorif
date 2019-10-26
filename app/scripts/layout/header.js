@@ -4,14 +4,14 @@ class Header extends HTMLElement {
         <div class="header" role="main">
             <div class="container">
               <div class="row">
-                <div class="col">
+                <div class="col d-flex align-items-center">
                   <div class="logo">
                     <figure>
-                      <img src="../images/logo.gif" alt="" />
+                      <img class="img-fluid" src="../images/logo.gif" alt="" />
                     </figure>
                   </div>
                 </div>
-                <div class="col">
+                <div class="col d-none d-lg-block">
                   <ul class="nav">
                     <li class="nav-item">
                       <a class="nav-link active" href="#">Why <i class="fa fa-angle-down"></i></a>

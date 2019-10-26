@@ -4,14 +4,14 @@ class Footer extends HTMLElement {
         <div class="footer" role="main">
             <div class="container">
               <div class="row">
-                <div class="col-3">
+                <div class="col-4 col-lg-3">
                   <div class="logo">
                     <figure>
-                      <img src="../images/logo-t.png" alt="" />
+                      <img class="img-fluid" src="../images/logo-t.png" alt="" />
                     </figure>
                   </div>
                 </div>
-                <div class="col d-flex justify-content-end">
+                <div class="col-lg-5  d-none d-lg-flex justify-content-end">
                   <ul class="nav">
                     <li class="nav-item">
                       <a class="nav-link active" href="#">Privacy Policy</a>
@@ -24,7 +24,7 @@ class Footer extends HTMLElement {
                     </li>
                   </ul>
                 </div>
-                <div class="col-3 d-flex justify-content-end">
+                <div class="col-8 col-lg-4 d-flex justify-content-end">
                   <ul class="social-links">
                     <li>
                       <a class="d-flex align-items-center justify-content-center">

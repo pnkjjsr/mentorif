@@ -1,13 +1,45 @@
 .header[role="main"] {
-  padding: 40px 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #fff;
   border-bottom: 1px solid #dddddd;
 
+  .col {
+    padding: 0;
+  }
+
   .logo {
+    width: 100px;
+
+    figure {
+      padding: 0;
+      margin: 0;
+    }
   }
 
   .nav {
     a.nav-link {
       color: $base-color;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .header[role="main"] {
+    padding: 40px 0;
+    border-bottom: 1px solid #dddddd;
+
+    .logo {
+      width: auto;
+    }
+
+    .nav {
+      display: flex;
+      flex-direction: row;
     }
   }
 }

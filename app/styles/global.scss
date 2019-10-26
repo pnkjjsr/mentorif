@@ -7,6 +7,7 @@
 body {
   padding: 0;
   margin: 0;
+  padding: 50px 0;
   color: $base-color;
   font-family: $font-family;
   font-size: $font-size;
@@ -51,6 +52,17 @@ body {
 .form-control {
   @extend %form-control;
   border: 1px solid #a8a5b3;
+}
+
+@include media-breakpoint-up(lg) {
+  body {
+    padding: 130px 0;
+  }
+}
+@include media-breakpoint-up(xl) {
+  body {
+    padding: 130px 0 0;
+  }
 }
 
 @include media-breakpoint-up(ss) {

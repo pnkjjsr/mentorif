@@ -6,7 +6,7 @@ class Home extends HTMLElement {
               
                 <div class="info first" role="mentor">
                   <div class="row">
-                      <div class="col d-flex align-items-center">
+                      <div class="col-12 col-xl-6 d-flex align-items-center justify-content-center">
                         <div class="heading">
                           Looking for
                           <br />
@@ -18,9 +18,9 @@ class Home extends HTMLElement {
                         </div>
                       </div>
 
-                      <div class="col">
+                      <div class="col-12 col-xl-6">
                         <figure>
-                          <img class="w-100" src="../../images/mentor.gif" alt="" />
+                          <img class="img-fluid" src="../../images/mentor.gif" alt="" />
                         </figure>
                       </div>
                     </div>
@@ -30,7 +30,7 @@ class Home extends HTMLElement {
 
                 <div class="info" role="mentees">
                   <div class="row">
-                      <div class="col d-flex flex-column">
+                      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
                         <div class="heading">
                           Looking for
                           <br />
@@ -42,19 +42,19 @@ class Home extends HTMLElement {
                             Create community to unleash your true potential
                           </small>
                         </div>
+                        
                         <div class="action">
                           <button class="btn btn-lg btn-primary">GET STARTED</button>
                         </div>
                       </div>
 
-                      <div class="col">
+                      <div class="col-12 col-xl-6">
                         <figure>
-                          <img class="w-100" src="../../images/mentees.gif" alt="" />
-
-                          <figcaption>
-                            Give back what you have learned and see it grow unimaginable
-                          </figcaption>
+                          <img class="img-fluid" src="../../images/mentees.gif" alt="" />
                         </figure>
+                        <figcaption>
+                          Give back what you have learned and see it grow unimaginable
+                        </figcaption>
                       </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ class Home extends HTMLElement {
                   What you can do on mentorIF
                 </div>
                 
-                <ul class="features d-flex flex-row justify-content-between">
+                <ul class="features">
                   <li>
                     <i>
                       <img src="" alt="" />
@@ -132,16 +132,16 @@ class Home extends HTMLElement {
             <hr />
 
             <div class="container-fluid">
-              <div class="info" role="Quality vs Quantity">
+              <div class="info" role="Network">
                   <div class="row">
 
-                      <div class="col">
+                      <div class="col-12 col-xl-5">
                         <figure>
-                          <img class="w-100" src="../../images/network.gif" alt="" />
+                          <img class="img-fluid" src="../../images/network.gif" alt="" />
                         </figure>
                       </div>
 
-                      <div class="col d-flex flex-column">
+                      <div class="col-12 col-xl-7 d-flex flex-column">
                         <div class="heading color-orange">
                             Prefer quality over quantity
                         </div>
@@ -164,7 +164,7 @@ class Home extends HTMLElement {
                 </div>
 
                 <figure>
-                  <img src="../../images/how.gif" alt="" />
+                  <img class="img-fluid" src="../../images/how.gif" alt="" />
                 </figure>
               </div>
             </div>
@@ -172,16 +172,16 @@ class Home extends HTMLElement {
             <div class="container">
               <div class="info d-flex flex-column align-items-center" role="features">
                   <div class="heading color-black">
-                    How mentorIF Works
+                    What People are Saying?
                   </div>
 
                   <div class="row">
-                    <div class="col">
+                    <div class="col-12 col-xl-5">
                       <figure>
-                        <img src="../../images/feedback.gif" alt="" />
+                        <img class="img-fluid" src="../../images/feedback.gif" alt="" />
                       </figure>
                     </div>
-                    <div class="col d-flex flex-column justify-content-center">
+                    <div class="col-12 col-xl-7 d-flex flex-column justify-content-center">
                       <div class="heading color-orange">
                         Headline goes here Small 2 liner 
                       </div>
